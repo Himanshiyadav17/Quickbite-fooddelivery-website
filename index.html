@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="icon.png">
+    
     <title>Quickbite</title>
 </head>
 <body>
@@ -12,14 +15,14 @@
             <div class="logo"><h1>Quick<b>bite</b></h1></div>
             <ul>
                <li><a class="active" href="#">Home</a></li>
-               <li><a href="#">Menu</a></li>
+               <li><a href="/menu.html">Menu</a></li>
                <li><a href="#">Service</a></li>
-               <li><a href="#">About Us</a></li>
-               <li><a href="#">Gallery</a></li>
+               <li><a href="/about.html">About Us</a></li>
+               <li><a href="#">Feedback</a></li>
             </ul>
-            <div>
-                <input class="signin" type="submit" value="Sign In" name="singin">
-                <input class="signup" type="submit" value="Sign Up" name="singup">
+           <div>
+                <a href="signin.html" class="signin">Sign In</a>
+                <a href="signup.html" class="signup">Sign Up</a>
             </div>
         </div>
     </section>
@@ -45,18 +48,88 @@
                 <div class="card">
                     <img src="images/burger.png" alt="">
                     <div class="food-title">
-                        <h1>Burger</h1>
+                        <h1>Veg Burger</h1>
                     </div>
                     <div class="desc-food">
-                        <p>Lorem ipsum dolor sit consectetur adipis Veritatis id quasi natus, dolores, hic </p>
+                        <p>Lorem ipsum dolor sit consec adipis Veritatis id quasi natus, dolores, hic </p>
                     </div>
                     <div class="price">
-                        <span class="amount">$10.99</span><span></span>
+                        <span class="amount">$10.99</span><span><i class="fa-solid fa-circle-plus plus-icon"></i></i></span>
+                    </div>
+                </div>  
+                <div class="card">
+                    <img class="fries" src="/images/french_fries-removebg-preview.png" alt="">
+                    <div class="food-title">
+                        <h1>Peri-Peri Fries</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>Lorem ipsum dolor sit consec adipis Veritatis id quasi natus, dolores, hic </p>
+                    </div>
+                    <div class="price">
+                        <span class="amount">$7.99</span><span><i class="fa-solid fa-circle-plus plus-icon"></i></i></span>
+                    </div>
+                </div>
+                  <div class="card">
+                    <img src="/images/pizza.png" alt="">
+                    <div class="food-title">
+                        <h1>Pizza</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>Lorem ipsum dolor sit consec adipis Veritatis id quasi natus, dolores, hic </p>
+                    </div>
+                    <div class="price">
+                        <span class="amount">$15.99</span><span><i class="fa-solid fa-circle-plus plus-icon"></i></i></span>
+                    </div>
+                </div>
+                  <div class="card">
+                    <img src="/images/waffle.png" alt="">
+                    <div class="food-title">
+                        <h1>Nuttela Waffle</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>Lorem ipsum dolor sit consec adipis Veritatis id quasi natus, dolores, hic </p>
+                    </div>
+                    <div class="price">
+                        <span class="amount">$20.00</span><span><i class="fa-solid fa-circle-plus plus-icon"></i></i></span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="track-orders">
+    <div class="track-left">
+        <h2>Track orders to your door</h2>
+        <p>
+            Get your favourite food delivered in a flash. 
+            You’ll see when your rider’s picked up your order, and be able to follow 
+            them along the way. You’ll get a notification when they’re nearby, too.
+        </p>
+
+        <div class="app-buttons">
+            <img src="/images/icons8-playstore-50.png" alt="App Store">
+            <img src="/images/icons8-app-store-50.png" alt="Google Play">
+        </div>
+    </div>
+
+    <div class="track-right">
+        <img src="/images/map-min.png" alt="Tracking Map">
+    </div>
+    </section>
+    <section class="meal-deals">
+    <div class="deal-content">
+        <h2>Up to 25% off meal deals</h2>
+        <p>
+            Need a midweek pick-me-up, a break from cooking for the family or 
+            just fancy your favourite restaurant?
+        </p>
+        <small>
+            Subject to availability. Participating restaurants only.
+            Service/delivery fees apply. <a href="#">T&Cs</a>
+        </small>
+    </div>
+</section>
+
+
 </body>
     
 </body>
