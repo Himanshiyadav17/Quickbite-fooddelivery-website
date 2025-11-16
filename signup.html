@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="signup.css">
+    <title>Sign Up - Quickbite</title>
+    
+        
+</head>
+<body>
+    
+    <section class="menu">
+        <div class="nav">
+            <div class="logo"><h1>Quick<b>bite</b></h1></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/menu.html">Menu</a></li>
+                <li><a href="/services.html">Service</a></li>
+                <li><a href="/about.html">About Us</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+            <div>
+                <a href="signin.html" class="signin">Sign In</a>
+                <a href="signup.html" class="signup">Sign Up</a>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="signup-container">
+        <form class="signup-form">
+            <h2>Create Your Account</h2>
+            
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="••••••••" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="••••••••" required>
+            </div>
+            
+            <button type="submit" class="submit-btn">Sign Up</button>
+            
+            <p class="signin-link">
+                Already have an account? <a href="#">Sign In</a>
+            </p>
+        </form>
+    </section>
+
+</body>
+</html>

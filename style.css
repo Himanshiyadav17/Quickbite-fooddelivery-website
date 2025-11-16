@@ -14,7 +14,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 0px;
+    padding: 0px 0px;
 }
 
 .nav .logo h1{
@@ -184,14 +184,14 @@ input{
 
 .category .card-list .card img{
     width: 150px;
-    height: 150px;
-    bottom: 120px;
-    left: 15px;
+    height: 90px;
+    bottom: 150px;
+    left: 17px;
     object-fit: cover;
     object-position: center;
     background-repeat: no-repeat;
     position: absolute;  
-    border-radius: 50%;
+    border-radius: 0%;
     
 }
 
@@ -334,29 +334,43 @@ input{
 }
 
 .signin{
-            display: inline-block;
-            padding: 10px 20px;
-            cursor: pointer;
-            font-weight: 600;
-            font-family: sans-serif;
-            font-size: 16px;
-            text-decoration: none;
-            background: transparent;
-            border: none;
-            color: black;
-        }
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    color: black;
+}
         
-        .signup{
-            display: inline-block;
-            padding: 10px 20px;
-            cursor: pointer;
-            font-weight: 600;
-            font-family: sans-serif;
-            font-size: 16px;
-            text-decoration: none;
-            background-color: #ff511c;
-            color: white;
-            outline: none;
-            border: none;
-            border-radius: 5px;
-        }
+.signup{
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #ff511c;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+           
+}
+
+.logo img {
+    height: 120px;
+    width: auto;
+}
+
+
+
