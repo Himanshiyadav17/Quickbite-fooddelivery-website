@@ -203,6 +203,63 @@
             width: auto;
         }
 
+
+
+@media (max-width: 786px) {
+
+    
+    body {
+        margin: 0 20px;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .nav ul li {
+        margin-right: 0;
+    }
+
+    .nav ul li a:hover {
+        font-size: 20px; 
+    }
+
+    .signin,
+    .signup {
+        margin-top: 5px;
+    }
+
+
+    .category .list-items .card-list {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px;
+    }
+
+    .category .card-list .card img {
+        width: 170px;
+        height: 120px;
+        top: -60px;
+    }
+
+    .category .card-list .card {
+        padding-top: 70px;
+        margin-top: 60px;
+    }
+
+    .category .list-items h3 {
+        text-align: center;
+    }
+}
+
         
         
 
